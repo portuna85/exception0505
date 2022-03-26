@@ -17,7 +17,7 @@ public class ApiExceptionController {
             throw new RuntimeException("잘못된 사용자");
         }
 
-        return new MemberDto(id, "hello" + id);
+        return new MemberDto(id, "hello " + id);
     }
 
     @Data
